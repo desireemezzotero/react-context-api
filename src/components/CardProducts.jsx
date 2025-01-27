@@ -21,7 +21,7 @@ const CardProducts = (props) => {
                  </div>
                   <div className="btn btn-success" onClick={details}>
                     <Link className="btn btn-success ms-0" to={`/dettagli-post/${id}`}>
-                       <i class="fa-solid fa-circle-info"></i>
+                       <i className="fa-solid fa-circle-info"></i>
                     </Link>
                   </div>
                </div>

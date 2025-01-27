@@ -9,7 +9,7 @@ function DefoultLayouts() {
       <Header />
     </header>
     <main>
-      {Outlet}
+      <Outlet />
     </main>
     <footer>
       <Footer/>
