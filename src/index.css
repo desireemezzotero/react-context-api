@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(170, 220, 238);
+}
+
+.container-nav {
+  background-color: rgb(170, 220, 238);
+  height: 100px;
+
+  .navBar {
+    justify-content: center;
+    height: 100%;
+    vertical-align: middle;
+  }
+
+  .navlink {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .active {
+    color: rgb(0, 145, 255);
+  }
+}
+
+.container-main {
+  margin-bottom: 150px;
+}
+
+.card-detail {
+  margin-top: 50px;
+  margin-bottom: 150px;
+  width: 50%;
+}
+
+.btn-success {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-left: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.card-product {
+  min-height: 200px;
+}
+
+/* footer */
+footer {
+  position: fixed;
+  bottom: 0px;
+  background-color: rgb(170, 220, 238);
+  width: 100%;
+}
